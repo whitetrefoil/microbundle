@@ -112,8 +112,7 @@
 		"rollup-plugin-typescript2": "^0.25.3",
 		"sade": "^1.7.3",
 		"tiny-glob": "^0.2.6",
-		"tslib": "^1.13.0",
-		"typescript": "^3.9.5"
+		"tslib": "^1.13.0"
 	},
 	"devDependencies": {
 		"@babel/cli": "^7.10.1",
@@ -139,6 +138,10 @@
 		"rimraf": "^3.0.2",
 		"shell-quote": "^1.6.1",
 		"strip-ansi": "^6.0.0",
-		"travis-size-report": "^1.1.0"
+		"travis-size-report": "^1.1.0",
+		"typescript": "^3.9.5"
+	},
+	"peerDependencies": {
+		"typescript": ">=3.9.5"
 	}
 }
